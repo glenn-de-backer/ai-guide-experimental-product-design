@@ -61,7 +61,7 @@ The first thing we need to is install the Python interpreter. Go to [https://www
 
 Click *Download Windows Installer (64bit)* and execute the setup after downloading it. 
 
-![Python.org download](images/python/python_download.png)
+![Python.org download](images/chapter_1/python/python_download.png)
 
 ::: warning
 While you could use a newer version of python, it could happen that the installation won't work as some packages are not updated for the newer version. This document goes out from the version mentioned above.
@@ -69,7 +69,7 @@ While you could use a newer version of python, it could happen that the installa
 
 \pagebreak
 
-![First screen python installer](images/python//python_step1.png){width=70%}
+![First screen python installer](images/chapter_1/python//python_step1.png){width=70%}
 
 This is the first screen of the Python installer
 
@@ -85,25 +85,25 @@ Finish the installation.
 
 Go to [https://git-scm.com/download/win](https://git-scm.com/download/win) and click **64-bit Git for Windows Setup.**
 
-![Git download](images/git/git_1.png){width=60%}
+![Git download](images/chapter_1/git/git_1.png){width=60%}
 
 Start the setup and click the Next button
 
-![First screen git installer](images/git/git_2.png){width=60%}
+![First screen git installer](images/chapter_1/git/git_2.png){width=60%}
 
 Click Next
 
-![Select folder where to install](images/git/git_3.png){width=60%}
+![Select folder where to install](images/chapter_1/git/git_3.png){width=60%}
 
 Optionally you can disable "Window Explorer integration"
 
-![Choose options](images/git/git_4.png){width=60%}
+![Choose options](images/chapter_1/git/git_4.png){width=60%}
 
-![Select startmenu name](images/git/git_5.png){width=60%}
+![Select startmenu name](images/chapter_1/git/git_5.png){width=60%}
 
 On each dialog you can click **Next** and use the default values until you get at the last dialog where you click **Finish**
 
-![Final screen](images/git/git_6.png){width=60%}
+![Final screen](images/chapter_1/git/git_6.png){width=60%}
 
 \newpage
 
@@ -114,24 +114,24 @@ At this moment the UI that has very active development including extension is St
 1. Click on the **Code** dropdown
 2. And click **Download ZIP**
 
-![Github page](images/automatic1111/step_1.png){width=80%}
+![Github page](images/chapter_1/automatic1111/step_1.png){width=80%}
 
 Click on **webui-user** (Batch) to start the rest of the installation
 
-![Extract and start the application](images/automatic1111/step_2.png){width=80%}
+![Extract and start the application](images/chapter_1/automatic1111/step_2.png){width=80%}
 
 As python scripts are not signed you will get a message that the script can't be run. You can ignore the doom and gloom message. 
 
-![Usigned app](images/automatic1111/step_3.png){width=50%}
+![Usigned app](images/chapter_1/automatic1111/step_3.png){width=50%}
 
 Click on **More info** and **Run anyway**
 
-![Run the application](images/automatic1111/step_4.png){width=50%}
+![Run the application](images/chapter_1/automatic1111/step_4.png){width=50%}
 
 \newpage
 The following will take a lot of time, so take a cup of tea and fill in a crosswords puzzle. This happens the only first time you startup the program. 
 
-![The installation](images/automatic1111/step_5.png){width=70%}
+![The installation](images/chapter_1/automatic1111/step_5.png){width=70%}
 
 ::: tip
 Sometimes you will get an error. I think this is related to Python sometimes not being able to keep up. The most easy fix in those cases is, close the window and relaunch the app as by clicking on **web-user.bat** as in Step 2
@@ -139,11 +139,11 @@ Sometimes you will get an error. I think this is related to Python sometimes not
 
 When a problem occurs it seems to pickup where it's left what in most cases seem to mitigate any problems
 
-![Finishing the installation when an error occurs](images/automatic1111/step_6.png){width=70%}
+![Finishing the installation when an error occurs](images/chapter_1/automatic1111/step_6.png){width=70%}
 
 When you the message **Running on Local URL: 127.0.0.1:7860** the UI has been started
 
-![Ready to start](images/automatic1111/step_7.png){width=70%}
+![Ready to start](images/chapter_1/automatic1111/step_7.png){width=70%}
 
 
 \newpage
@@ -154,11 +154,11 @@ When you the message **Running on Local URL: 127.0.0.1:7860** the UI has been st
 
 You can access the GUI by opening your webbrowser and type [https://127.0.0.1:](http://127.0.0.1:7860/) 
 
-![The UI](images/stable_diffusion/ui.png){width=80%}
+![The UI](images/chapter_1/stable_diffusion/ui.png){width=80%}
 
 Alternatively you can *control + right click* on the url in the console to open it automatically
 
-![Alternative way to start UI](images/stable_diffusion/console_click.png){width=80%}
+![Alternative way to start UI](images/chapter_1/stable_diffusion/console_click.png){width=80%}
 
 ### Generating your first image
 
@@ -169,7 +169,7 @@ Alternatively you can *control + right click* on the url in the console to open 
 &nbsp;
 &nbsp;
 
-![Generating you first image](images/stable_diffusion/generate.png){width=100%}
+![Generating you first image](images/chapter_1/stable_diffusion/generate.png){width=100%}
 
 \newpage
 
@@ -193,19 +193,19 @@ You will often get things you don’t want to have in your image. You can mitiga
 
 For example we generate some pictures of men. 
 
-![Fillng in our prompt](images/negative/prompt.png){width=50%}
+![Fillng in our prompt](images/chapter_1/negative/prompt.png){width=50%}
 
-![Result of our prompt](images/negative/beard.png){width=100%}
+![Result of our prompt](images/chapter_1/negative/beard.png){width=100%}
 
 Ok nice, but one thing that you will notice that it generates a lot of pictures of men with beards. And maybe we have a case where we don't want that. 
 
 So you fix that by filling in **beard** as a keyword in the negative prompt input and generate again. 
 
-![Define negative words](images/negative/negative.png){width=50%}
+![Define negative words](images/chapter_1/negative/negative.png){width=50%}
 
 As you can see the results does not include men with beards. 
 
-![When beard is added as a negative word](images/negative/without_beard.png){width=100%}
+![When beard is added as a negative word](images/chapter_1/negative/without_beard.png){width=100%}
 
 So why would you not use "Photo of a man without a beard"? Because the AI is dumb and sometimes it does not make the connection with *without* and *beard* what could even get results with more beards!
 
@@ -235,7 +235,7 @@ Look for the **Batch count** slider (1) and change the value to the amount of im
 
 For example setting the value to 5 will generate 5 images, 10 will generate 10 images,.... Easy!
 
-![Batch size](images/stable_diffusion/batch_size.png){width=100%}
+![Batch size](images/chapter_1/stable_diffusion/batch_size.png){width=100%}
 
 ::: tip
 You can also change the number of images each batch will generate for example *Batch count* 5 and *Batch size* 4, will give 5 x 4 or 20 images
@@ -247,14 +247,14 @@ You have the prompt *scene of an apple sitting on a wooden table*. What if you q
 
 You could use different prompts or more easy to the following
 
-![Define your prompt](images/xyz_script/step1.png){width=100%}
+![Define your prompt](images/chapter_1/xyz_script/step1.png){width=100%}
 
 1. Change the script to **X/Y/Z Plot**
 2. Change X type to **Prompt SR**
 3. Change X values to **an apple**, **a watermelon**, **a orange**
 4. Enable **Include Sub Images** - so you can save the images individually
 
-![Setup script](images/xyz_script/step_2.png){width=90%}
+![Setup script](images/chapter_1/xyz_script/step_2.png){width=90%}
 
 So what happens here when you press **generate** ?
 
@@ -263,5 +263,5 @@ So what happens here when you press **generate** ?
 3. It searches for *an apple* in your prompt, replaces it with **a orange** and generate that prompt. 
 4. It displays the result in columns
 
-![Results](images/xyz_script/step_3.png){width=70%}
+![Results](images/chapter_1/xyz_script/step_3.png){width=70%}
 
