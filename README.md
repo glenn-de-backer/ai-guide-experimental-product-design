@@ -25,3 +25,7 @@ To optimize the document (reduce filesize)
 ```bash
 ./optimize.sh
 ```
+
+### License
+
+Attribution-NonCommercial-ShareAlike 4.0 International
