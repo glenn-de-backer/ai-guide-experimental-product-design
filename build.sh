@@ -1,2 +1,2 @@
  rm build/*
- pandoc manual.md -o build/stable_diffusion_guide.pdf --template eisvogel --listings --filter pandoc-latex-environment  -H disable_float.tex
+ pandoc chapters/1_stable_diffusion.md chapters/2_generate_personas.md -o build/stable_diffusion_guide.pdf --template eisvogel --listings --filter pandoc-latex-environment  -H disable_float.tex

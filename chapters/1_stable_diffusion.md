@@ -1,5 +1,5 @@
 ---
-title: "Generating images with AI - a stable diffusion guide 0.2"
+title: "Using AI in product design"
 author: "Glenn De Backer"
 subject: "Markdown"
 keywords: [Markdown, Example]
@@ -264,3 +264,4 @@ So what happens here when you press **generate** ?
 4. It displays the result in columns
 
 ![Results](images/xyz_script/step_3.png){width=70%}
+
