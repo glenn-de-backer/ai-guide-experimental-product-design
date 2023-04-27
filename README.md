@@ -1,4 +1,5 @@
-# AI guide to 
+# A guide to Artificial intelligence and the (experimental) use in product design
+
 
 ## Requirements to build the document
 
