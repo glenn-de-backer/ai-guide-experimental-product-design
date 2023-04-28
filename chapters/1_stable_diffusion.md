@@ -113,10 +113,11 @@ At this moment the UI that has very active development including extension is St
 
 1. Click on the **Code** dropdown
 2. And click **Download ZIP**
+3. Extract the zip to your **C:\\** folder so lives in the folder **C:\\stable-diffusion-webui-master\\**
 
-![Github page](images/chapter_1/automatic1111/step_1.png){width=80%}
+![Github page](images/chapter_1/automatic1111/step_1.png){width=70%}
 
-Click on **webui-user** (Batch) to start the rest of the installation
+Click on **webui-user.bat** (batch) to start the rest of the installation
 
 ![Extract and start the application](images/chapter_1/automatic1111/step_2.png){width=80%}
 
@@ -148,11 +149,11 @@ When you the message **Running on Local URL: 127.0.0.1:7860** the UI has been st
 
 \newpage
 
-### Working with the Stable Diffusion UI
+## Working with the Stable Diffusion UI
 
 ### Accessing the UI
 
-You can access the GUI by opening your webbrowser and type [https://127.0.0.1:](http://127.0.0.1:7860/) 
+You can access the GUI by opening your webbrowser and type [https://127.0.0.1:7860](http://127.0.0.1:7860/) 
 
 ![The UI](images/chapter_1/stable_diffusion/ui.png){width=80%}
 
@@ -173,7 +174,7 @@ Alternatively you can *control + right click* on the url in the console to open 
 
 \newpage
 
-### Writing prompts 
+## Writing prompts 
 
 ### Be specific
 
@@ -223,7 +224,7 @@ The rule is **What you do not want to see, put in the negative prompt**. This co
 
 \newpage
 
-### The internet has been lying...
+## The internet has been lying... generating more than one image
 
 You will see a lot of examples on the internet that seems to be perfect. But in most cases, they have been edited in Photoshop or there have been a lot of generations. It's even possible to (re)generate only a part of an image by using a technique called Inpainting. 
 
