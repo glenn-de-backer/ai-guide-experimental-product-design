@@ -65,7 +65,45 @@ To even make the faces more realistic enable the **Restore faces** checkbox. The
 
 Click **Generate** to create your first portrait!
 
-![Result](images/chapter_2/generate_protogen.png){width=60%}
+![Result](images/chapter_2/generate_protogen.png){width=100%}
+
+\newpage
+
+## Generating a biography
+
+A persona also has a biography and that is also something where we could use AI for. 
+
+### ChatGPT
+
+Go to [https://chat.openai.com/](https://chat.openai.com/) and register an account if you didn't already do that. 
+
+![Result](images/chapter_2/chatgpt_site.png){width=100%}
+
+### Creating a basic biography
+
+Writing a prompt is really easy 
+
+Here are some example prompts
+
+> create a biography for elsa, a middle age woman who lost her husband recently and tries to find new happiness in life
+
+But if you want to have a shorter biography add the **short** word
+
+> create a short biography for elsa, a middle age woman who lost her husband recently and tries to find new happiness in life
+
+You can even control the number of sentences
+
+> create a biography in 5 sentences for elsa, a middle age woman who lost her husband recently and tries to find new happiness in life
 
 
-### Generating a biography
+ChatGPT stores the context of what it's generating so you can ask extra info like for example
+
+> What would the architype be of Elsa?
+
+or
+
+> What are the posssible personal values be for Elsa
+
+...
+
+![Result](images/chapter_2/persona_gpt1.png){width=100%}

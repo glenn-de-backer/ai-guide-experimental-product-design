@@ -8,3 +8,5 @@ You can define the pose of a character, use a drawing as an extra input, the sil
 
 Describing all the extra networks is a guide on itself, so I will try to give some practical examples where I use some of them. 
 
+
+## Installing ControlNet
