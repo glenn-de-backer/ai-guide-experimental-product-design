@@ -216,11 +216,7 @@ The rule is **What you do not want to see, put in the negative prompt**. This co
 
 ### Add some weight
 
-### Some tips
-
-* Start simple
-* Work iterative, sometimes adding some words can make a result better
-* I try to generate in batches of 5 and check if it's more or less what I want than refine. 
+TODO 
 
 \newpage
 
