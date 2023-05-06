@@ -54,14 +54,23 @@ Go to [https://huggingface.co/lllyasviel/ControlNet-v1-1/tree/main](https://hugg
 1. Select all ControlNet files
 2. Right Click and press Copy
    
-![The downloaded ControlNet files](images/chapter_4/controlnet_copy.png){width=60%}
+![Copy the ControlNet files](images/chapter_4/controlnet_copy.png){width=70%}
 
 
 1. Go to the install folder of stable diffusion, it **models\\ControlNet** subfolder
 2. Right click and press Paste
 
-![The downloaded ControlNet files](images/chapter_4/controlnet_paste.png){width=60%}
+![Paste the ControlNet files](images/chapter_4/controlnet_paste.png){width=70%}
+
+\newpage
+
+Be sure that the models are loaded
+
+1. Open the ControlNet tab
+2. Click the refresh button - only needed if the UI was still running when copying the files
+3. In the dropdownload you should a list of models
+
+![The downloaded ControlNet files](images/chapter_4/controlnet_check_loaded.png){width=100%}
 
 
-
-
+\newpage
