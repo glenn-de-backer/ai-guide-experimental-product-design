@@ -8,7 +8,7 @@ toc: true
 toc-own-page: true
 titlepage: true,
 titlepage-rule-color: "360049"
-titlepage-background: "backgrounds/background1.pdf"
+titlepage-background: "backgrounds/background7.pdf"
 header-includes:
 - |
   ```{=latex}
@@ -24,9 +24,7 @@ pandoc-latex-environment:
 
 # Stable diffusion
 
-## What is stable diffusion? 
 
-[TODO]
 
 ## Installations
 
@@ -214,9 +212,6 @@ So why would you not use "Photo of a man without a beard"? Because the AI is dum
 The rule is **What you do not want to see, put in the negative prompt**. This could also be misformed hands, blurry images, drawing,...
 :::
 
-### Add some weight
-
-TODO 
 
 \newpage
 

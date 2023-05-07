@@ -73,4 +73,6 @@ Be sure that the models are loaded
 ![The downloaded ControlNet files](images/chapter_4/controlnet_check_loaded.png){width=100%}
 
 
+You should now be able to use ControlNet! 
+
 \newpage
