@@ -12,12 +12,13 @@ Finding the promps was quite a challenge in the beginning but here are some exam
 
 > Pattern designed by wolfgang weingart, modernist, typography, black and white, smooth, joy
 
-![Search](images/chapter_3/pattern_1.png){width=80%}
+![Pattern wolfgang weingart](images/chapter_3/pattern_1.png){width=80%}
 
 
-> Pattern designed by wolfgang weingart, modernist, typography, black and white, smooth, joy
+> Pattern designed by Paul Rand,  black and white, smooth, joy
 
-![Search](images/chapter_3/pattern_1.png){width=80%}
+![Pattern Rand Paul](images/chapter_3/pattern_2.png){width=80%}
+
 
 
 ## Generating a 3D model
@@ -26,7 +27,7 @@ To generate a 3D model we need to have an image that is not only black and white
 
 For example
 
-> heightmap , black and white, round , joyfull, vector, svg
+> heightmap , grayscale, round , joyfull, vector, svg
 
 Which in my case gave my the following image
 
@@ -52,4 +53,39 @@ After some processing you could view the 3D model and generate the STL you can i
 ![Image2STL 3D STL](images/chapter_3/image2stl_result.png){width=80%}
 
 \newpage
+
 ## Generating a vector illustration
+
+To generate a pattern we can convert, we need to have an image that is in black and white. 
+
+For example
+
+> black and white, round , joyfull, vector, svg
+
+Which gave the following image
+
+![Heightmap pattern](images/chapter_3/pattern_svg.png){width=20%}
+
+
+While there are multiple ways to convert an image to a vector, we will be using [https://www.autotracer.org/](https://www.autotracer.org/) 
+
+1. Upload your Pattern
+2. Reduce the number of colors to 2 (Black and white)
+3. Optionally you can enable **Ignore white background**
+4. Click on **Start**
+
+![AutoTracer settings](images/chapter_3/autotrace_1.png){width=40%}
+
+You will get the pattern back as a SVG file that you can download and import into Illustrator to setup your laser cutter or in this case Lightburn. 
+
+Click **File> Import**
+
+![Lightburn import](images/chapter_3/lightburn_1.png){width=40%}
+
+Select the pattern you converted (SVG)
+
+![Lightburn select SVG](images/chapter_3/lightburn_2.png){width=40%}
+
+You can now setup the rest of the settings needed to engrave or burn your material
+
+![Lightburn select SVG](images/chapter_3/lightburn_3.png){width=50%}
