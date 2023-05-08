@@ -62,3 +62,27 @@ I personally had the best experience with setting the preprocessor to **Line Art
 :::
 
 ![Shoe results](images/chapter_5/lineart_3.png){width=100%}
+
+## Changing a room
+
+I started from the following image and the object was to convert it into a Scandi style.
+
+![Start image](images/chapter_5/photo_1.jpg){width=55%}
+
+Toggle the ControlNet tab and use the following settings
+
+1. Upload the render of your 3D object
+2. Check **Enable** and **Low VRAM**
+3. As preprocessor use **Depth Zoe**
+4. Set the model to **xxx_depth**
+
+
+![Start image](images/chapter_5/photo_2.png){width=90%}
+
+> a living room in japandi design with a couch, chair, table and lamp in it, a rug on the floor and a frame with a  painting on the wall, 8k, highly detailed, award winning photo
+
+You can also play with the settings, where I used 
+
+> Settings:  DPM2 Karras / Steps 30
+
+![Results](images/chapter_5/photo_3.png){width=100%}
