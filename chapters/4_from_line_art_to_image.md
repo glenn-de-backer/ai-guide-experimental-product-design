@@ -50,5 +50,49 @@ You will see different controlnet models that you can now use as extra input
 
 ## Drawing a sneaker
 
- begin with a line art drawing I crafted in Illustrator as part of a visualization course.
+I begin with a line art drawing I created in Illustrator.
+
+![Shoe drawing](images/chapter_4/shoe/shoe_final.png){width=90%}
+
+I started by opening the image (Open / File or Copy Paste) in Krita. 
+
+![Opening the image in Krita](images/chapter_4/shoe/step1.png){width=100%}
+
+Fill the input (1) with the following text
+
+> blue sneaker with white bottom
+
+![Fill in the prompt](images/chapter_4/shoe/step2.png){width=60%}
+
+Add a new **control(net) layer** (1)
+
+![Add a new controlnet layer](images/chapter_4/shoe/step3.png){width=60%}
+
+Change the **control layer** by clicking on the dropdown toggle (1)
+
+![Change controlnet layer](images/chapter_4/shoe/step4.png){width=60%}
+
+Select **Line art** (1)
+
+![Select line art](images/chapter_4/shoe/step5.png){width=60%}
+
+\newpage
+
+Press **Generate** (1)
+
+![Press generate](images/chapter_4/shoe/step6.png){width=60%}
+
+The generated shoe
+
+![Press generate](images/chapter_4/shoe/step7.png){width=90%}
+
+Shoe results
+
+![Shoe results](images/chapter_4/shoe/shoe_results.png){width=90%}
+
+## Changing the sole
+
+What is now easy is to change parts of the image like for example the sole of our shoe. 
+
+
 
