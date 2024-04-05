@@ -1,5 +1,5 @@
 ---
-title: "Using AI in product design an improved guide"
+title: "Using AI in product design - an update"
 author: "Glenn De Backer"
 subject: "Markdown"
 keywords: [Markdown, Example]
@@ -8,7 +8,7 @@ toc: true
 toc-own-page: true
 titlepage: true,
 titlepage-rule-color: "360049"
-titlepage-background: "backgrounds/background7.pdf"
+titlepage-background: "backgrounds/background3.pdf"
 header-includes:
 - |
   ```{=latex}
@@ -26,7 +26,7 @@ pandoc-latex-environment:
 
 Although many students managed to install it, some found the process too daunting. Since then, significant improvements have been made, including the introduction of a Krita plugin, greatly simplifying the setup procedure.
 
-Before, explaining how to set up certain models took many pages and involved downloading and using command lines. But now, it's much simpler. You just need to click on some buttons and check some boxes. So, I've decided to rewrite the guide and add some new things I've learned.
+Before, explaining how to set up certain models took many pages and involved downloading and using command lines. But now, it's much simpler. You just need to click on some buttons and check some boxes. So, I've decided to rewrite the guide and add some new things I've learned since my last presentation.
 
 # Krita
 
