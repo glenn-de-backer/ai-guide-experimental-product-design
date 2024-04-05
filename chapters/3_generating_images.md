@@ -18,7 +18,7 @@ In the AI Image Generator dock find the input field with the text **Describe the
 
 > a small cute cat taking over the cockpit of a plane, aviator glasses, hyper-realistic, 8k
 
-![Filling in the prompt](images/chapter_3/cat/step1.png){width=80%}
+![Filling in the prompt](images/chapter_3/cat/step1.png){width=70%}
 
 If everything is ok, you should see the result appearing.
 
@@ -37,7 +37,7 @@ keywords.
 
 In Krita Ai diffusion this option is hidden but you can enable this. 
 
-Go to the **cog wheels icon** (1) and click on it to open the configuration
+Go to the **cog wheels icon** (1) and click on it to open the configuration dialog
 
 ![Open configuration](images/chapter_3/be_negative/step1.png){width=80%}
 
