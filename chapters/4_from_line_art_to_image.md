@@ -1,6 +1,6 @@
-# From line art to image
-
-## More control 
+# More then only text 
+ 
+## ControlNet
 
 **ControlNet** is an extra model that allows extra input, next to text. You can for example define the pose
 of a character, use a drawing as an extra input, the silhouette of objects, depth,... and much more.
@@ -9,7 +9,6 @@ of a character, use a drawing as an extra input, the silhouette of objects, dept
 
 
 ## Enabling ControlNet within the Krita AI diffusion plugin
-
 Installing it does not take 6 pages like in the previous guide, within Krita AI plugin this is really a lot easier.
 
 Go to the **cog wheels icon** (1) and click on it to open the configuration dialog
@@ -48,11 +47,13 @@ You will see different controlnet models that you can now use as extra input
 
 \newpage
 
+# From X to images
+
 ## Drawing a sneaker
 
 I begin with a line art drawing I created in Illustrator.
 
-![Shoe drawing](images/chapter_4/shoe/shoe_final.png){width=90%}
+![Shoe drawing](images/chapter_4/shoe/shoe_final.png){width=80%}
 
 I started by opening the image (Open / File or Copy Paste) in Krita. 
 
@@ -95,4 +96,26 @@ Shoe results
 What is now easy is to change parts of the image like for example the sole of our shoe. 
 
 
+Select the **Bezier curve** selection tool (1). In principle any selection tool will work.
 
+![Select the bezier curve selection tool](images/chapter_4/sole/step1.png){width=50%}
+
+Select the sole using the selection tool
+
+![Select the sole](images/chapter_4/sole/step2.png){width=70%}
+
+Fill in the input field (1)
+
+> Rugged sole
+
+And click the **Fill** (2) button. You may notice the Generate button changed name. 
+
+![Generate new sole](images/chapter_4/sole/step3.png){width=60%}
+
+You can preview the generated soles by clicking on the previews visible in the bottom right screen. When you find the one you like, you can click the Apply button.
+
+![Selecting the new sole](images/chapter_4/sole/step4.png){width=100%}
+
+Generated soles
+
+![Generated soles](images/chapter_4/sole/sole_final.png){width=100%}
