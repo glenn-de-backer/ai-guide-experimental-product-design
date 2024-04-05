@@ -44,3 +44,13 @@ Go to the **cog wheels icon** (1) and click on it to open the configuration
 Click on the **interface section** (1), find **Negative prompt** (2) and enable it by **flipping the checkbox** (3). Close the dialog by pressing the **OK** (4) button
 
 ![Enable negative prompt](images/chapter_3/be_negative/step2.png){width=80%}
+
+\newpage
+
+Describe what you want to see (1), in the **Red textfield** (2) add the things you do not want to see, click on **Generate** (3)
+
+![Describe a negative prompt](images/chapter_3/be_negative/step3.png){width=80%}
+
+The result of adding a negative prompt
+
+![Result image generation](images/chapter_3/be_negative/step4.png){width=100%}
