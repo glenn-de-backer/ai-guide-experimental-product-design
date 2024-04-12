@@ -47,7 +47,7 @@ You will see different controlnet models that you can now use as extra input
 
 \newpage
 
-# From X to images
+# From X to image
 
 ## Drawing a sneaker
 
@@ -59,7 +59,7 @@ I started by opening the image (Open / File or Copy Paste) in Krita.
 
 ![Opening the image in Krita](images/chapter_4/shoe/step1.png){width=100%}
 
-Fill the input (1) with the following text
+Fill the input (1) with the following text 
 
 > blue sneaker with white bottom
 
@@ -119,3 +119,83 @@ You can preview the generated soles by clicking on the previews visible in the b
 Generated soles
 
 ![Generated soles](images/chapter_4/sole/sole_final.png){width=100%}
+
+\newpage
+
+## From 3D to image
+
+We can also start from a basic 3D object with the exception we will not use the **Scribble** or **Line art** ControlNet but the **Depth** model
+
+You can use any 3D modeling program Blender, Rhino, Siemens Nx,... Rendering isn't strictly necessary, though be mindful that certain elements like a grid in your screenshot might lead to unintended outcomes.
+
+
+::: tip
+Moreover, if your software includes features such as FreeStyle (Blender), Pen or MonoChrome (Rhino),... enabling you to accentuate edges, leveraging these capabilities can significantly enhance your results
+:::
+
+Here I have drawn a simple walkie talkie with not to much details in Rhino. I enabled **Monochrome** as shading mode so the edges would come out better.
+
+I've also attempted to include as many features as I wanted to convey. Of course, the AI can't read your mind, so it's a bit of luck and crafting a good prompt for it to pick up the details, but it's not that bad. 
+
+Additionally, you can later tweak parts within Photoshop or even once more using AI on those parts
+
+![Modeling a walkie talkie](images/chapter_4/3dmodel/step1.png){width=100%}
+
+\newpage
+
+Load your image into Krita
+
+![Generated soles](images/chapter_4/3dmodel/step2.png){width=90%}
+
+Fill the input (1) with the following text
+
+
+> black and yellow rugged walkie talkie with a yellow antenna, 3 buttons sitting on broken stone at a construction yard where it's 
+> raining, award winning picture, product design, awards, high quality, 4k, realistic;
+
+![Fill in prompt](images/chapter_4/3dmodel/step3.png){width=60%}
+
+\newpage
+
+Add a new **control(net) layer** (1)
+
+![New ControlNet layer](images/chapter_4/3dmodel/step4.png){width=60%}
+
+Change the **control layer** by clicking on the dropdown toggle (1)
+
+![Change the ControlNet layer](images/chapter_4/3dmodel/step5.png){width=60%}
+
+
+Select the depth model (1)
+
+![Select the depth model](images/chapter_4/3dmodel/step6.png){width=60%}
+
+
+Press **generate** (1)
+
+![Generating](images/chapter_4/3dmodel/step7.png){width=60%}
+
+![Final](images/chapter_4/3dmodel/final.png){width=95%}
+
+Like with the sole example, you can also modify parts of the walkie talkie
+
+![Final with modifications](images/chapter_4/3dmodel/final2.png){width=95%}
+
+
+\newpage
+
+## Changing a room
+
+![Load the image of the room](images/chapter_4/change_room/step1.png){width=100%}
+
+![Load the image of the room](images/chapter_4/change_room/step2.png){width=100%}
+
+![Load the image of the room](images/chapter_4/change_room/step3.png){width=100%}
+
+![Load the image of the room](images/chapter_4/change_room/step4.png){width=100%}
+
+
+
+![Load the image of the room](images/chapter_4/change_room/room_result.png){width=100%}
+
+![Load the image of the room](images/chapter_4/change_room/others.png){width=100%}
