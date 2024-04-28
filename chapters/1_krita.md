@@ -1,30 +1,7 @@
----
-title: "Using AI in product design - an update"
-author: "Glenn De Backer"
-subject: "Markdown"
-keywords: [Markdown, Example]
-lang: "en"
-toc: true
-toc-own-page: true
-titlepage: true,
-titlepage-rule-color: "360049"
-titlepage-background: "backgrounds/background3.pdf"
-header-includes:
-- |
-  ```{=latex}
-  \usepackage{awesomebox}
-  ```
-pandoc-latex-environment:
-  noteblock: [note]
-  tipblock: [tip]
-  warningblock: [warning]
-  cautionblock: [caution]
-  importantblock: [important]
-...
 
-# Introduction
+# An update
 
-Although many students managed to install it, some found the process too daunting. Since then, significant improvements have been made, including the introduction of a Krita plugin, greatly simplifying the setup procedure.
+Although many students managed to install stable diffusion based on my previous guide, some found the process too daunting. Since then, significant improvements have been made, including the introduction of a Krita plugin, greatly simplifying the setup procedure.
 
 Before, explaining how to set up certain models took many pages and involved downloading and using command lines. But now, it's much simpler. You just need to click on some buttons and check some boxes. So, I've decided to rewrite the guide and add some new things I've learned since my last presentation.
 

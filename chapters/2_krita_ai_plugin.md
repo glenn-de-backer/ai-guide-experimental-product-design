@@ -21,7 +21,7 @@ More than GPU speed of your videocard, Video Ram is also important. Especially i
 
 ## Downloading the plugin
 
-Go to https://github.com/Acly/krita-ai-diffusion/releases and download the latest release. In this case I'm using **krita_ai_diffusion-1.16.1**
+Go to https://github.com/Acly/krita-ai-diffusion/releases and download the latest release. In this case I'm using **krita_ai_diffusion-1.17.0**
 
 ![Download the plugin](images/chapter_2/krita_ai_step1.png){width=100%}
 
@@ -88,5 +88,6 @@ It will install python, some python libraries, download and setup the models. Th
 If everything is ok you should see the message **Server running** (1), press the **Ok** (2) button to close this dialog
 
 ![Server running](images/chapter_2/krita_ai_step13.png){width=90%}
+
 
 \newpage

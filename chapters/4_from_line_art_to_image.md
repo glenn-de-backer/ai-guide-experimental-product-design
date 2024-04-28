@@ -1,4 +1,4 @@
-# More then only text 
+# More than only text 
  
 ## ControlNet
 
@@ -186,16 +186,33 @@ Like with the sole example, you can also modify parts of the walkie talkie
 
 ## Changing a room
 
-![Load the image of the room](images/chapter_4/change_room/step1.png){width=100%}
-
-![Load the image of the room](images/chapter_4/change_room/step2.png){width=100%}
-
-![Load the image of the room](images/chapter_4/change_room/step3.png){width=100%}
-
-![Load the image of the room](images/chapter_4/change_room/step4.png){width=100%}
+At first, it might not seem useful, but in programs like KeyShot or Blender, when you're matching perspectives, having an image that looks well put-together but is missing some parts or has a different style could be really helpful
 
 
+First load the image of the room you want to change
 
-![Load the image of the room](images/chapter_4/change_room/room_result.png){width=100%}
+![Load the image of the room](images/chapter_4/change_room/step1.png){width=90%}
 
-![Load the image of the room](images/chapter_4/change_room/others.png){width=100%}
+Add a new control layer by clicking the Add Layer (1) button
+
+![Add a new controlnet layer](images/chapter_4/change_room/step2.png){width=90%}
+
+Add a depth layer (1)
+
+![Add a depth layer](images/chapter_4/change_room/step3.png){width=90%}
+
+Fill in the text (1) and press **Generate** (2)
+
+> bright colorfull room, paint on the wall
+
+![Generating a new image](images/chapter_4/change_room/step4.png){width=90%}
+
+The result
+
+![Result](images/chapter_4/change_room/room_result.png){width=90%}
+
+Other possible results
+
+![Other examples](images/chapter_4/change_room/others.png){width=90%}
+
+\newpage
